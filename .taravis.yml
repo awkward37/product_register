@@ -3,7 +3,6 @@ sudo: required
 service: docker
 
 before_install:
-  - docker login -u awkward37 -p dckr_pat_G9AMGb1a2oBKfP9LdsJATDREOEE
   - docker-compose up --build -d
 
 script:
